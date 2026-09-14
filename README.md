@@ -4,7 +4,7 @@ Azure Function that hits a rotating list of URLs on an hourly cron.
 
 ## Why
 
-[Supabase's free tier pauses a project](https://supabase.com/docs/guides/platform/upgrading-to-pro#pausing) after a week of no activity. This function pings the site (which talks to Supabase) once an hour to simulate real traffic, so the backing project never goes idle long enough to get paused.
+[Supabase's free tier pauses a project](https://supabase.com/docs/guides/platform/free-project-pausing) after a week of no activity. This function pings the site (which talks to Supabase) once an hour to simulate real traffic, so the backing project never goes idle long enough to get paused.
 
 ## How it works
 
